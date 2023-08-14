@@ -30,14 +30,17 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div>
-      <Link href="/">Aditya Bekti</Link>
-      <div>
+    <div className="h-24 flex justify-between items-center">
+      <Link href="/" className="font-bold text-xl">Aditya Bekti</Link>
+      <div className="flex items-center gap-4">
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
           </Link>
         ))}
+        <button className="p-1 bg-green-400 cursor-pointer rounded">
+          Logout
+        </button>
       </div>
     </div>
   );
