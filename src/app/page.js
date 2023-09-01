@@ -15,7 +15,7 @@ export default function Home() {
         <Button url="" text="See Our Works"></Button>
       </div>
       <Image
-        className="w-2/5"
+        className="w-2/5 animate-move"
         src="/Consulting-bro.png"
         alt=""
         width={500}
