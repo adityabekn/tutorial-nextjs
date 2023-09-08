@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "@/components/button/Button";
+import Button from "@/components/Button/Button";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
           fill={true}
           alt=""
         ></Image>
-        <div className="absolute bottom-5 left-5 bg-green-400 p-1.5">
+        <div className="absolute bottom-5 left-5 bg-green-400 p-1.5 text-white">
           <h1 className="text-xl">Digital Storytellers</h1>
           <h2 className="text-base font-light">
             Handcrafting award winning digital experiences

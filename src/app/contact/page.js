@@ -1,17 +1,17 @@
 import Image from "next/image";
-import Button from "@/components/button/Button";
+import Button from "@/components/Button/Button";
 
 const Contact = () => {
   return (
     <div>
-      <h1>Let&apos;s Keep in Touch</h1>
+      <h1 className="text-2xl">Let&apos;s Keep in Touch</h1>
       <div className="flex items-center gap-24">
         <div className="flex-1 relative h-96">
           <Image
             src="/Contact_us-bro.png"
             alt=""
             fill={true}
-            className="object-contain animate-move"
+            className="object-cover animate-move"
           ></Image>
         </div>
         <form action="" className="flex-1 flex flex-col gap-5">
